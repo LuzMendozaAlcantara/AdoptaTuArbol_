@@ -1,0 +1,186 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+header {
+    flex: 5;
+    display: flex;
+    flex-direction: column;
+}
+header > .barra_sup {
+    flex: 1;
+    background-color: #9bc08c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.barra_medio {
+    flex: 2;
+    border-bottom: 0.2rem solid black;
+    display: flex;
+    margin-left: 7rem;
+    margin-right: 8rem;
+}
+.barra_medio > #adopta {
+    flex: 2;
+    display: flex;
+    align-items: center;
+    font-size: xxx-large;
+    font-weight: bold;
+}
+#adopta > #adopt1 {
+    color: #6ba84d;
+}
+#adopta > #adopt2 {
+    color: #bbd6b3;
+}
+#adopta > #adopt3 {
+    color: #93c378;
+}
+.barra_medio > #boton_barra {
+    flex: 3;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 2rem;
+}
+.boton_adoptar {
+    background-color: #b6d6a7;
+    width: 4rem;
+    height: 2rem;
+    margin-right: 1rem;
+    border: none;
+}
+#boton_donar {
+    background-color: #6ba84d;
+    color: white;
+    width: 4rem;
+    height: 2rem;
+    border: none;
+}
+.barra_inf {
+    flex: 1;
+    display: flex;
+    margin-left: 7rem;
+    margin-right: 8rem;
+}
+.barra_inf > #mostrar {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+.barra_inf > #select {
+    flex: 1;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+
+main {
+    flex: 11;
+    margin-left: 7rem;
+    margin-right: 8rem;
+    display: flex;
+    flex-direction: column;
+}
+main > .main_1 {
+    flex: 1;
+    display: flex;
+}
+.main_1 .arboles {
+    background-color: #eeeeee;
+    flex: 1;
+    margin: 1rem;
+    display: flex;
+    border-radius: 9%;
+}
+.arboles > .part2 {
+    margin: 3rem;
+    display: flex;
+}
+.part2 > div {
+    flex: 1;
+}
+.part2 > .parte2_boton {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+main > .main_2 {
+    flex: 1;
+    display: flex;
+}
+.main_2 .arboles2 {
+    background-color: #eeeeee;
+    flex: 1;
+    margin: 1rem;
+    display: flex;
+    border-radius: 9%;
+}
+.arboles2 > .part2_2 {
+    margin: 3rem;
+    display: flex;
+}
+.part2_2 > div {
+    flex: 1;
+}
+.part2_2 > .parte2_boton {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+main img {
+    width: 9rem;
+    height: 7rem;
+    margin: 1.5rem;
+}
+
+footer {
+    flex: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #9bc08c;
+}
+footer > #contacto1 {
+    flex: 0.5;
+    margin-left: 7rem;
+}
+#contacto1 > p {
+    margin-bottom: 1rem;
+    color: white;
+    font-weight: bold;
+    font-size: x-large;
+}
+#contacto1 > div {
+    display: flex;
+    flex-direction: column;
+}
+#contacto2, #contacto3 {
+    flex: 0.5;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    justify-content: space-evenly;
+    font-weight: bold;
+}
+footer > #suscripcion {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 4rem;
+}
+#suscripcion > p {
+    margin-bottom: 1rem;
+    color: white;
+    font-weight: bold;
+    font-size: x-large;
+}
